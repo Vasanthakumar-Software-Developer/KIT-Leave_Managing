@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KIT1</string>
+    <string-array name="department">
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>MECH</item>
+        <item>BME</item>
+        <item>AERO</item>
+        <item>AGRI</item>
+    </string-array>
+</resources>
