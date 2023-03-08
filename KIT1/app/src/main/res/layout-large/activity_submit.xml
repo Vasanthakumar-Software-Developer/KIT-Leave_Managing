@@ -20,9 +20,8 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button5"
-
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -55,10 +54,12 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Submit17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/namw25" />
+        app:layout_constraintTop_toBottomOf="@+id/namw25"
+        app:layout_constraintVertical_bias="0.275" />
 
     <EditText
         android:id="@+id/namw22"
@@ -98,7 +99,7 @@
         android:layout_width="343dp"
         android:layout_height="48dp"
         android:ems="10"
-        android:hint="Hours"
+        android:hint="Periods"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="@color/black"
@@ -125,21 +126,26 @@
         app:layout_constraintTop_toBottomOf="@+id/button5"
         app:layout_constraintVertical_bias="0.643" />
 
-
-
     <Button
         android:id="@+id/add"
-        android:layout_width="53dp"
-        android:layout_height="54dp"
+        android:layout_width="63dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#7A0202"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
         android:text="+"
-        android:textColor="#FFFFFF"
-        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintTop_toTopOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.958" />
 
     <Button
         android:id="@+id/Submit"
@@ -153,6 +159,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.903" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

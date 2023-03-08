@@ -4,11 +4,11 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    android:background="#E60303"
-    android:backgroundTint="#DCDADA"
-    app:cardBackgroundColor="#FFFFFF"
-    app:cardCornerRadius="8dp"
-    android:outlineAmbientShadowColor="#404040"
+    style="@style/CardView.Dark"
+    android:backgroundTint="#F6F6F6"
+    app:cardBackgroundColor="#EDD4D4"
+    app:cardCornerRadius="25dp"
+
     app:cardElevation="8dp">
 
     <LinearLayout
@@ -16,15 +16,41 @@
         android:layout_height="wrap_content"
         android:layout_marginVertical="6dp"
         android:layout_marginStart="16dp"
+        android:background="#F8F5F5"
+
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/mention"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:background="#A8F6DD"
+                android:shadowColor="@color/black"
+                android:shadowRadius="5"
+                android:text="                     Old                "
+                android:textColor="#000F98"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Faculty Detail"
 
+            android:textColor="#980000"
             android:textSize="26sp"
-            android:textStyle="bold"
-            android:textColor="#980000"/>
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,7 +67,7 @@
 
             <TextView
                 android:id="@+id/UserName"
-                android:layout_width="wrap_content"
+                android:layout_width="273dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="name"
@@ -66,7 +92,7 @@
 
             <TextView
                 android:id="@+id/Desti"
-                android:layout_width="wrap_content"
+                android:layout_width="205dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="Professor"
@@ -76,7 +102,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:orientation="horizontal">
@@ -116,7 +142,7 @@
 
             <TextView
                 android:id="@+id/Purpose"
-                android:layout_width="wrap_content"
+                android:layout_width="250dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="Fever"
@@ -134,6 +160,57 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Leave Type:"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Leavetype"
+                android:layout_width="225dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="CL"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Informed Through:"
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Inform"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Phone"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="No.of days:"
                 android:textColor="@color/black"
                 android:textSize="26sp"
@@ -141,10 +218,35 @@
 
             <TextView
                 android:id="@+id/Days"
-                android:layout_width="wrap_content"
+                android:layout_width="225dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="5"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textColor="@color/black"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/FromToDate"
+                android:layout_width="171dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="8dp"
+                android:text="FROM TO"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
@@ -155,9 +257,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Alternate Faculty Detail"
+            android:textColor="#980000"
             android:textSize="26sp"
-            android:textStyle="bold"
-            android:textColor="#980000"/>
+            android:textStyle="bold" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -174,7 +277,7 @@
 
             <TextView
                 android:id="@+id/UserName1"
-                android:layout_width="wrap_content"
+                android:layout_width="277dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="name"
@@ -199,7 +302,7 @@
 
             <TextView
                 android:id="@+id/Desti1"
-                android:layout_width="wrap_content"
+                android:layout_width="289dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="YEAR"
@@ -224,7 +327,7 @@
 
             <TextView
                 android:id="@+id/Depname1"
-                android:layout_width="wrap_content"
+                android:layout_width="203dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="depname"
@@ -242,14 +345,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Period:"
+                android:text="Periods:"
                 android:textColor="@color/black"
                 android:textSize="26sp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/Purpose1"
-                android:layout_width="wrap_content"
+                android:layout_width="258dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="I"
@@ -274,7 +377,7 @@
 
             <TextView
                 android:id="@+id/Days1"
-                android:layout_width="wrap_content"
+                android:layout_width="211dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:text="1"
@@ -282,6 +385,7 @@
                 android:textSize="20sp" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -298,14 +402,15 @@
 
             <TextView
                 android:id="@+id/Date"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="158dp"
+                android:layout_height="54dp"
                 android:layout_marginStart="8dp"
                 android:text="1/1/1 14:4"
                 android:textColor="@color/black"
                 android:textSize="20sp" />
 
         </LinearLayout>
+
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

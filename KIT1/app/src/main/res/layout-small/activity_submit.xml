@@ -8,6 +8,27 @@
     tools:context=".Submit">
 
     <Button
+        android:id="@+id/add"
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#7A0202"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="+"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button6"
+        app:layout_constraintVertical_bias="0.995" />
+
+    <Button
         android:id="@+id/button6"
         android:layout_width="415dp"
         android:layout_height="114dp"
@@ -20,9 +41,8 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button5"
-
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -49,16 +69,18 @@
         android:id="@+id/namw24"
         android:layout_width="343dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
         android:hint="No of Hours"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/Submit"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/namw25" />
+        app:layout_constraintTop_toBottomOf="@+id/namw25"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/namw22"
@@ -98,7 +120,7 @@
         android:layout_width="343dp"
         android:layout_height="48dp"
         android:ems="10"
-        android:hint="Hours"
+        android:hint="Periods"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textColorHint="@color/black"
@@ -107,7 +129,7 @@
         app:layout_constraintHorizontal_bias="0.397"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677" />
+        app:layout_constraintVertical_bias="0.664" />
 
     <EditText
         android:id="@+id/namw21"
@@ -125,22 +147,6 @@
         app:layout_constraintTop_toBottomOf="@+id/button5"
         app:layout_constraintVertical_bias="0.643" />
 
-
-
-    <Button
-        android:id="@+id/add"
-        android:layout_width="53dp"
-        android:layout_height="54dp"
-        android:text="+"
-        android:textColor="#FFFFFF"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.843"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
-
     <Button
         android:id="@+id/Submit"
         android:layout_width="202dp"
@@ -152,7 +158,6 @@
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.903" />
-
+        app:layout_constraintVertical_bias="0.936" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

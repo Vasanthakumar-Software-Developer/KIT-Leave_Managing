@@ -10,17 +10,16 @@
         android:id="@+id/button13"
         android:layout_width="165dp"
         android:layout_height="49dp"
-        android:layout_marginBottom="59dp"
         android:ems="10"
         android:hint="  TO DATE"
         android:inputType="textPersonName"
         android:textColorHint="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/Submit17"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintHorizontal_bias="0.038"
         app:layout_constraintStart_toEndOf="@+id/button12"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.685" />
+        app:layout_constraintVertical_bias="0.611" />
 
     <EditText
         android:id="@+id/text4"
@@ -32,10 +31,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348"
+        app:layout_constraintVertical_bias="0.38"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -48,10 +47,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.261"
+        app:layout_constraintVertical_bias="0.286"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -62,12 +61,12 @@
         android:hint="  NO.OF DAYS"
         android:inputType="number"
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/Submit17"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723"
+        app:layout_constraintVertical_bias="0.727"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -80,10 +79,10 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.164"
+        app:layout_constraintVertical_bias="0.193"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
@@ -96,32 +95,31 @@
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
+        app:layout_constraintVertical_bias="0.499"
         tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/button12"
         android:layout_width="177dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="59dp"
         android:ems="10"
         android:hint="  FROM DATE"
         android:inputType="textPersonName"
         android:textColorHint="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/Submit17"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintHorizontal_bias="0.301"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.684" />
+        app:layout_constraintVertical_bias="0.612" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="417dp"
-        android:layout_height="83dp"
+        android:layout_width="648dp"
+        android:layout_height="109dp"
         android:layout_gravity="center"
         android:backgroundTint="#AF0202"
         android:hint="KIT-KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY"
@@ -137,50 +135,18 @@
 
     <Button
         android:id="@+id/Submit17"
-        android:layout_width="357dp"
-        android:layout_height="51dp"
+        android:layout_width="432dp"
+        android:layout_height="50dp"
         android:backgroundTint="#FFAF0202"
         android:hint="NEXT"
         android:textColorHint="@color/white"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
-
-    <EditText
-        android:id="@+id/Leavetype"
-        android:layout_width="347dp"
-        android:layout_height="42dp"
-        android:ems="10"
-        android:hint="  LEAVE TYPE"
-        android:inputType="text"
-        android:textColorHint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/inform"
-        android:layout_width="347dp"
-        android:layout_height="42dp"
-        android:ems="10"
-        android:hint="  INFORMED THROUGH"
-        android:inputType="text"
-        android:textColorHint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.814"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.844" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

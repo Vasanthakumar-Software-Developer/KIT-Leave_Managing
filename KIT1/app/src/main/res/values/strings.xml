@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">KIT1</string>
+    <string name="open" />
+    <string name="close" />
     <string-array name="department">
         <item>CSE</item>
         <item>ECE</item>
